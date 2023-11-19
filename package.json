@@ -1,0 +1,15 @@
+{
+  "name": "resume-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/css/styles.css -o ./dist/output.css --watch"
+  },
+  "author": "dewanshu",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}

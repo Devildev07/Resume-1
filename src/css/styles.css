@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* mobile devices */
+@media (min-width: 640px) {
+    .sm\:container {
+        width: 100%;
+    }
+}
+
+/* tablet devices */
+@media (min-width: 768px) {
+    .md\:container {
+        width: 100%;
+    }
+}
+
+/* desktop devices */
+@media (min-width: 1024px) {
+    .lg\:container {
+        width: 100%;
+    }
+}
+
+/* large desktop devices */
+@media (min-width: 1280px) {
+    .xl\:container {
+        width: 100%;
+    }
+}
