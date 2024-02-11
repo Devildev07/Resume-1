@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+.font-poppins{
+    font-family: 'Poppins';
+}
+
 /* mobile devices */
 @media (min-width: 640px) {
     .sm\:container {
